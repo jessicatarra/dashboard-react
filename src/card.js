@@ -21,7 +21,7 @@ export default function Card({
         <span className="card-followers-title">Followers</span>
       </p>
       <p className="card-today">
-        <img src="./images/icon-up.svg" alt="" />
+        <img src="public\icon-up.svg" alt="" />
         {todayFollowers} Today
       </p>
     </articles>

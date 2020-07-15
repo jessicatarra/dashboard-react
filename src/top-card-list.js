@@ -8,7 +8,7 @@ const cardListData = [
     id: 1,
     followers: 1987,
     todayFollowers: 12,
-    icon: "../images/icon-facebook.svg",
+    icon: "./icon-facebook.svg",
     color: "facebook",
   },
   {
@@ -16,7 +16,7 @@ const cardListData = [
     id: 2,
     followers: 1044,
     todayFollowers: 12,
-    icon: "../images/icon-twitter.svg",
+    icon: "./icon-twitter.svg",
     color: "twitter",
   },
   {
@@ -24,7 +24,7 @@ const cardListData = [
     id: 3,
     followers: "11k",
     todayFollowers: 12,
-    icon: "../images/icon-instagram.svg",
+    icon: "./icon-instagram.svg",
     color: "instagram",
   },
   {
@@ -32,7 +32,7 @@ const cardListData = [
     id: 4,
     followers: 8239,
     todayFollowers: 12,
-    icon: "../images/icon-youtube.svg",
+    icon: "./icon-youtube.svg",
     color: "youtube",
   },
 ];

@@ -4,25 +4,25 @@ import CardSmall from "./card-small";
 
 const cardSmallList = [
   {
-    icon: "./images/icon-facebook.svg",
+    icon: "./icon-facebook.svg",
     pageViews: "87",
     growth: 3,
     key: 1,
   },
   {
-    icon: "./images/icon-twitter.svg",
+    icon: "./icon-twitter.svg",
     pageViews: "52",
     growth: 2257,
     key: 2,
   },
   {
-    icon: "./images/icon-instagram.svg",
+    icon: "./icon-instagram.svg",
     pageViews: "5462",
     growth: 1375,
     key: 3,
   },
   {
-    icon: "./images/icon-youtube.svg",
+    icon: "./icon-youtube.svg",
     pageViews: "117",
     growth: 303,
     key: 4,

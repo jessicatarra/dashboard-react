@@ -10,7 +10,7 @@ export default function CardSmall({ growth, pageViews, icon }) {
       <p className="card-small-number">{pageViews}</p>
       <p className="card-small-percentage">
         <span>
-          <img src="./images/icon-up.svg" alt="" />
+          <img src="./icon-up.svg" alt="" />
           {growth}%
         </span>
       </p>
