@@ -1,0 +1,89 @@
+/* top cards*/
+.top-cards {
+  margin-top: -50px;
+  margin-bottom: 3em;
+}
+
+/* cards */
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--cardGray);
+  text-align: center;
+  display: block;
+  height: 210px;
+}
+
+.card:before {
+  content: "";
+  height: 3px;
+  display: block;
+  background: var(--facebook);
+}
+
+.card.facebook::before {
+  background: var(--facebook);
+}
+
+.card.twitter::before {
+  background: var(--twitter);
+}
+
+.card.instagram::before {
+  background-image: linear-gradient(
+    to right,
+    var(--instagram-1),
+    var(--instagram-2)
+  );
+}
+
+.card.youtube::before {
+  background: var(--youTube);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cardTitle);
+  font-weight: bold;
+  font-size: 0.9em;
+  padding-top: 0.7em;
+}
+
+.card-title img {
+  margin-right: 5px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: var(--cardTitle);
+}
+
+.card-followers-number {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.card-followers-title {
+  display: block;
+  text-transform: uppercase;
+  color: var(--cardTitle);
+  letter-spacing: 3.5px;
+  font-size: 0.75em;
+}
+
+.card-today {
+  margin-top: 20px;
+  color: var(--lime-green);
+  font-size: 0.7em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.7em;
+}
+
+.card-today img {
+  margin-right: 5px;
+}
