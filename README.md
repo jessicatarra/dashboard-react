@@ -1,3 +1,9 @@
+# Dark Mode Social Dashboard (React)
+
+This is a project from frontendmentor.io https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H that was made previously with html, css and vanila javascript, and now for educational purpose, re factoring using react js.
+
+![](https://repository-images.githubusercontent.com/258941753/77c84080-874f-11ea-9a87-077ac3fb5182)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
