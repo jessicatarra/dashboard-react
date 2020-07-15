@@ -12,9 +12,7 @@ export default function Card({
     <articles className={cardClass}>
       <p className="card-title">
         <img src={icon} alt="" />
-        <a href="https://www.facebook.com/jessictarra" target="_blank">
           {username}
-        </a>
       </p>
       <p className="card-followers">
         <span className="card-followers-number">{followers}</span>
